@@ -117,7 +117,7 @@ class RaidQueue(commands.Cog):
         await self.close_queue_callback(inter)
 
     @commands.command()
-    async def show_queue(self, ctx) -> None:
+    async def close_queue(self, ctx) -> None:
         await self.close_queue_callback(ctx)
 
 
